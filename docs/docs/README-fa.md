@@ -1,7 +1,6 @@
 <div align="center">
   <h1 style="color: #00bcd4;">نصب خودکار پنل Remnawave</h1>
   <p style="font-size: 18px;">اسکریپتی حرفه‌ای برای نصب خودکار پنل Remnawave و متصل کردن نود در لینوکس</p>
-  <img src="https://private-user-images.githubusercontent.com/161594161/416000514-c99c4ee4-01ca-4409-80c3-d58892dde854.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAzMjU4MDUsIm5iZiI6MTc0MDMyNTUwNSwicGF0aCI6Ii8xNjE1OTQxNjEvNDE2MDAwNTE0LWM5OWM0ZWU0LTAxY2EtNDQwOS04MGMzLWQ1ODg5MmRkZTg1NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyM1QxNTQ1MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNzI0ZWM0MGY2NWI3ODQ4NDNjOTNkMzI2ZjI4ZDBhMzM0YWRkYjQzZDZiMDk1NDA0N2ZmODk3NGU2MDU3MTkzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.yyTfr33ueGAAHg7AqGLamCnEWrx0QHop6Pjn71NkCis" width="200" alt="لوگوی Remnawave">
   <img src="https://img.shields.io/badge/Platform-Linux-brightgreen" alt="Linux">
   <img src="https://img.shields.io/badge/Version-v0.1%20(Beta)-orange" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-blue" alt="MIT License">
@@ -30,3 +29,8 @@
 اگر این پروژه برای شما مفید بوده، با دادن یک ستاره (⭐) در گیت‌هاب از ما حمایت کنید.
 
 🔹 برای دریافت جدیدترین اخبار، بروزرسانی‌ها و پشتیبانی، به کانال تلگرام ما در @AsanFillter بپیوندید.
+
+<br><br><br><br> <!-- فاصله برای قرار گرفتن لوگو در پایین صفحه -->
+<div align="center">
+  <img src="https://private-user-images.githubusercontent.com/161594161/416000514-c99c4ee4-01ca-4409-80c3-d58892dde854.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAzMjU4MDUsIm5iZiI6MTc0MDMyNTUwNSwicGF0aCI6Ii8xNjE1OTQxNjEvNDE2MDAwNTE0LWM5OWM0ZWU0LTAxY2EtNDQwOS04MGMzLWQ1ODg5MmRkZTg1NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyM1QxNTQ1MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNzI0ZWM0MGY2NWI3ODQ4NDNjOTNkMzI2ZjI4ZDBhMzM0YWRkYjQzZDZiMDk1NDA0N2ZmODk3NGU2MDU3MTkzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.yyTfr33ueGAAHg7AqGLamCnEWrx0QHop6Pjn71NkCis" width="300" alt="لوگوی Remnawave">
+</div>
