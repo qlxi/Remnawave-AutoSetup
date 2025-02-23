@@ -1,6 +1,6 @@
 <div align="center">
   <h1 style="color: #00bcd4;">نصب کننده خودکار Remnawave</h1>
-  <p>اسکریپت حرفه‌ای برای نصب خودکار پنل Remnawave و اتصال نود در لینوکس</p>
+  <p>اسکریپت حرفه‌ ای برای نصب خودکار پنل Remnawave و اتصال نود در لینوکس</p>
   <img src="https://github.com/AsanFillter/Remnawave-AutoSetup/blob/52637e61cc545ce5b096ea3359758b4629451c96/remnawave_screenshot.png?raw=true" alt="تصویر Remnawave" style="width: 80%; max-width: 800px; margin: 20px 0;">
   
   <!-- نشان‌های لایسنس، نسخه و پلتفرم -->
