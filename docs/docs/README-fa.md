@@ -1,6 +1,7 @@
 <div align="center">
   <h1 style="color: #00bcd4;">نصب خودکار پنل Remnawave</h1>
-  <p style="font-size: 18px;">اسکریپتی حرفه‌ای برای نصب خودکار پنل Remnawave و نودهای آن روی لینوکس</p>
+  <p style="font-size: 18px;">اسکریپتی حرفه‌ای برای نصب خودکار پنل Remnawave و متصل کردن نود در لینوکس</p>
+  <img src="https://github.com/AsanFillter/Remnawave-AutoSetup/raw/main/remnawave-logo.png" width="200" alt="لوگوی Remnawave">
   <img src="https://img.shields.io/badge/Platform-Linux-brightgreen" alt="Linux">
   <img src="https://img.shields.io/badge/Version-v0.1%20(Beta)-orange" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-blue" alt="MIT License">
@@ -13,13 +14,11 @@
 
 ---
 
-## فارسی
-
 ### سیستم‌عامل پشتیبانی‌شده
 - **اوبونتو 20.04 یا بالاتر** <span style="color: #4caf50;">✔</span>
 
 ### ویژگی‌های این اسکریپت
-این اسکریپت با منوی تعاملی و طراحی کاربرپسند، نصب و راه‌اندازی پنل Remnawave و نودهای آن را به صورت کاملاً خودکار انجام می‌دهد. ویژگی‌های کلیدی شامل موارد زیر هستند:
+این اسکریپت با منوی تعاملی و طراحی کاربرپسند، نصب و راه‌اندازی پنل Remnawave و متصل کردن نودهای آن را به صورت کاملاً خودکار انجام می‌دهد. ویژگی‌های کلیدی شامل موارد زیر هستند:
 
 - راه‌اندازی خودکار پنل Remnawave: نصب و پیکربندی پنل به صورت کاملاً خودکار با Docker و Nginx.
 - ساخت حساب ادمین: ایجاد حساب کاربری ادمین با نام کاربری و رمز عبور دلخواه در حین نصب، به‌صورت امن.
