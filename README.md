@@ -13,9 +13,9 @@
   <br><br>
   <div style="font-size: 14px;">
     <a href="https://github.com/AsanFillter/Remnawave-AutoSetup/blob/main/README.md" style="text-decoration: none; color: #007bff;">English</a> | 
-    <a href="[#](https://github.com/AsanFillter/Remnawave-AutoSetup/docs/docs/README-fa.md)" style="text-decoration: none; color: #007bff;">فارسی</a> | 
-    <a href="https://github.com/AsanFillter/Remnawave-AutoSetup/docs/docs/README-ru.md" style="text-decoration: none; color: #007bff;">Русский</a> | 
-    <a href="https://github.com/AsanFillter/Remnawave-AutoSetup/docs/docs/README-zh.md/" style="text-decoration: none; color: #007bff;">中文</a>
+    <a href="https://github.com/AsanFillter/Remnawave-AutoSetup/blob/main/docs/README-fa.md" style="text-decoration: none; color: #007bff;">فارسی</a> | 
+    <a href="https://github.com/AsanFillter/Remnawave-AutoSetup/blob/main/docs/README-ru.md" style="text-decoration: none; color: #007bff;">Русский</a> | 
+    <a href="https://github.com/AsanFillter/Remnawave-AutoSetup/blob/main/docs/README-zh.md" style="text-decoration: none; color: #007bff;">中文</a>
   </div>
 </div>
 
