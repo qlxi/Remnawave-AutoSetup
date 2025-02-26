@@ -339,4 +339,4 @@ If you find this project useful, please consider giving it a star on GitHub!
 - **Telegram Channel:** [@AsanFillter](https://t.me/AsanFillter)  
 - **Telegram Group:** [@AsanFillter_Group](https://t.me/asanfillter_group)
 
-For more information and documentation, please visit the [official Remnawave site](https://remnawave.com).
+For more information and documentation, please visit the [official Remnawave site](https://remna.st/).
