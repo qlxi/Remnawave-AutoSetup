@@ -339,4 +339,4 @@ docker compose up -d && docker compose logs -f
 - **Telegram 频道：** [@AsanFillter](https://t.me/AsanFillter)  
 - **Telegram 群组：** [@AsanFillter_Group](https://t.me/asanfillter_group)
 
-更多信息和文档，请访问 [Remnawave 官方网站](https://remnawave.com)。
+更多信息和文档，请访问 [Remnawave 官方网站](https://remna.st/).
