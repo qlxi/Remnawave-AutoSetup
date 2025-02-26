@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# خودکارسازی اصلاح فرمت پایان خط (CRLF به LF)
+if file "$0" | grep -q "CRLF line terminators"; then
+    # ایجاد یک نسخه موقت از اسکریپت با فرمت LF
+    sed 's/\r$//' "$0" > /tmp/temp_script.sh
+    # اجرای نسخه اصلاح‌شده
+    exec /bin/bash /tmp/temp_script.sh
+    # حذف فایل موقت بعد از اجرا (این خط ممکن است اجرا نشود چون exec جایگزین می‌کند)
+    rm -f /tmp/temp_script.sh
+    exit 1
+fi
+
 if [ "$(id -u)" -ne 0 ]; then
     echo "Error: This script must be run as root (sudo)"
     exit 1
