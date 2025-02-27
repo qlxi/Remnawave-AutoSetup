@@ -76,7 +76,7 @@
 在终端中运行以下命令以自动安装 Remnawave：
 
 ```sh
-curl -s https://raw.githubusercontent.com/AsanFillter/Remnawave-AutoSetup/dfe140d1cb758bbc9f7f4485977b4d65ff5833f9/install_remnawave.sh | bash
+wget -O start.sh https://raw.githubusercontent.com/AsanFillter/Remnawave-AutoSetup/main/start.sh && chmod +x start.sh && ./start.sh
 ```
 
 <details>
