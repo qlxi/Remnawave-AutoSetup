@@ -279,4 +279,64 @@ sudo apt install -y apt-transport-https ca-certificates curl software-properties
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 sudo apt update
-su
+sudo apt install -y docker-ce
+docker --version
+```
+
+2. بروزرسانی پکیج ها:
+```sh
+sudo apt update && apt upgrade -y
+```
+
+3. ساخت فولدر برای نود و فایل داکر:
+```sh
+mkdir /remnanode && cd /remnanode && nano docker-compose.yml
+```
+
+4. اضافه کردن محتوایات به فایل `docker-compose.yml`:
+```yaml
+services:
+  remnanode:
+    container_name: remnanode
+    hostname: remnanode
+    image: remnawave/node:latest
+    env_file:
+      - .env
+    network_mode: host
+```
+
+5. ساخت و ویرایش فایل .env:
+```sh
+nano .env
+```
+
+6. وارد پنل خود شوید سپس در بخش نود ها در بخش "Important information" سرتیفیکیت مربوطه را کپی کرده و در فایل .env قرار دهید:
+```env
+### APP ###
+APP_PORT=2222
+```
+
+7. کانتینر داکر اجرا کنید و لاگ هارو مشاهده کنید:
+```sh
+docker compose up -d && docker compose logs -f
+```
+
+</details>
+
+## Contributions
+
+از مشارکتی که میکنید سپاسگزارم، از طریق راه های زیر میتوانید به پروژه کمک کنید:
+
+- مشکل را گزارش کنید ( issue باز کنید )
+- ویژگی مدنظر و جدید خودرا پیشنهاد دهید
+
+## حمایت
+
+[![ویدیو را تماشا کنید](https://github.com/AsanFillter/Remnawave-AutoSetup/raw/main/img/thumbnail.jpg)](https://www.youtube.com/watch?v=AM2ppG1kTFI)
+
+اگر این پروژه براتون مفید بود خوشحال می شویم به آن ستاره دهید
+
+- **کانال تلگرام:** [@AsanFillter](https://t.me/AsanFillter)  
+- **گروه تلگرام:** [@AsanFillter_Group](https://t.me/asanfillter_group)
+
+برای اطلاعات بیشتر به سایت اصلی پروژه مراجعه کنید [سایت رسمی پنل Remnawave](https://remna.st/).
