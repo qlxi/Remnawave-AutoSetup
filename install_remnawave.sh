@@ -211,6 +211,10 @@ print(\"JWT_API_TOKENS_SECRET:\", jwt_api_tokens_secret)" > generate_jwt_secrets
     read SUB_WEBPAGE_DOMAIN
     echo
     
+    echo -ne "${PURPLE}Enter the public domain for subscription (e.g., rw.domain.com): ${NC}"
+    read SUB_PUBLIC_DOMAIN
+    echo
+    
     clear
     echo -e "${BOLD_RED}\033[1m┌──────────────────────────────┐\033[0m${NC}"
     echo -e "${BOLD_RED}\033[1m│ Ensure your credentials are strong │\033[0m${NC}"
@@ -259,7 +263,7 @@ print(\"JWT_API_TOKENS_SECRET:\", jwt_api_tokens_secret)" > generate_jwt_secrets
         sed -i "s|NODES_NOTIFY_CHAT_ID=change_me|NODES_NOTIFY_CHAT_ID=$NODES_NOTIFY_CHAT_ID|" .env
         sed -i "s|SUB_SUPPORT_URL=https://support.example.com|SUB_SUPPORT_URL=https://$SUB_SUPPORT_DOMAIN|" .env
         sed -i "s|SUB_WEBPAGE_URL=https://example.com|SUB_WEBPAGE_URL=https://$SUB_WEBPAGE_DOMAIN|" .env
-        sed -i "s|SUB_PUBLIC_DOMAIN=example.com|SUB_PUBLIC_DOMAIN=rw.guilanit.com|" .env
+        sed -i "s|SUB_PUBLIC_DOMAIN=example.com|SUB_PUBLIC_DOMAIN=$SUB_PUBLIC_DOMAIN|" .env
         sed -i "s|SUPERADMIN_USERNAME=change_me|SUPERADMIN_USERNAME=$SUPERADMIN_USERNAME|" .env
         sed -i "s|SUPERADMIN_PASSWORD=change_me|SUPERADMIN_PASSWORD=$SUPERADMIN_PASSWORD|" .env
     ) & show_setup_animation
