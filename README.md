@@ -334,6 +334,8 @@ Contributions are always welcome! Here's how you can help:
 
 ## Support
 
+[![Watch the tutorial video](https://github.com/AsanFillter/Remnawave-AutoSetup/raw/main/img/thumbnail.jpg)](https://www.youtube.com/watch?v=AM2ppG1kTFI)
+
 If you find this project useful, please consider giving it a star on GitHub!
 
 - **Telegram Channel:** [@AsanFillter](https://t.me/AsanFillter)  
