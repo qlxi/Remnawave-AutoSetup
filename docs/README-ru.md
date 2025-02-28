@@ -334,6 +334,8 @@ docker compose up -d && docker compose logs -f
 
 ## Поддержка
 
+[![Смотреть обучающее видео](https://github.com/AsanFillter/Remnawave-AutoSetup/raw/main/img/thumbnail.jpg)](https://www.youtube.com/watch?v=AM2ppG1kTFI)
+
 Если вы считаете этот проект полезным, пожалуйста, поставьте ему звезду на GitHub!
 
 - **Telegram канал:** [@AsanFillter](https://t.me/AsanFillter)  
