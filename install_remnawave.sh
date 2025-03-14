@@ -512,7 +512,16 @@ services:
             - ./fullchain.pem:/etc/nginx/ssl/fullchain.pem:ro
             - ./privkey.key:/etc/nginx/ssl/privkey.key:ro
         restart: always
-        network_mode: host
+        ports:
+            - '0.0.0.0:443:443'
+        networks:
+            - remnawave-network
+
+networks:
+  remnawave-network:
+    name: remnawave-network
+    driver: bridge
+    external: true
 EOF
     
     docker compose up -d
